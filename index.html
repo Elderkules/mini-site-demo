@@ -3,48 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bienvenido — Mini Sitio Pokémon</title>
+  <title>Bienvenido — Evoluciones de Bulbasaur</title>
   <style>
     body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0d1117; color:#e6edf3; }
     header { text-align:center; padding:40px 16px; border-bottom:1px solid #1f2630; }
     h1 { margin:0 0 10px; font-size:32px; }
     p { margin:0; color:#9aa4b2; }
-    .container { max-width:1000px; margin:0 auto; padding:24px 16px; }
-    .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .container { max-width:900px; margin:0 auto; padding:24px 16px; }
+    .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
     .card { background:#161b22; border:1px solid #21262d; border-radius:12px; padding:12px; text-align:center; }
-    .card img { width:96px; height:96px; image-rendering: pixelated; }
+    .card img { width:120px; height:120px; image-rendering: pixelated; }
     .name { margin-top:8px; font-weight:700; }
     footer { text-align:center; padding:24px; color:#9aa4b2; border-top:1px solid #1f2630; font-size:14px; }
-    a { color:#ffcb05; text-decoration:none; }
   </style>
 </head>
 <body>
   <header>
-    <h1>¡Bienvenido, Entrenador! ⚡️</h1>
-    <p>Este es un mini sitio de prueba con algunos Pokémon clásicos.</p>
+    <h1>🌱 Evoluciones de Bulbasaur</h1>
+    <p>Conoce la línea evolutiva de Bulbasaur.</p>
   </header>
 
   <main class="container">
     <div class="grid">
       <div class="card">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
-        <div class="name">#025 • Pikachu</div>
-      </div>
-      <div class="card">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
         <div class="name">#001 • Bulbasaur</div>
       </div>
       <div class="card">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
-        <div class="name">#004 • Charmander</div>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="Ivysaur">
+        <div class="name">#002 • Ivysaur</div>
       </div>
       <div class="card">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
-        <div class="name">#007 • Squirtle</div>
-      </div>
-      <div class="card">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee">
-        <div class="name">#133 • Eevee</div>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Venusaur">
+        <div class="name">#003 • Venusaur</div>
       </div>
     </div>
   </main>
